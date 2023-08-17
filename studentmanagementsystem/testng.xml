@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="Test-runner1">
+    <classes>
+      <class name="practicepackage.GroupExecutioninTestNG"/>
+      </classes>
+      </test>
+      <test name="test-runner2">
+		  <classes>
+      <class name="practicepackage.Launch_app"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
